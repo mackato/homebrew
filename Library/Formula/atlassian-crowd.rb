@@ -92,6 +92,10 @@ EOS
         see http://confluence.atlassian.com/display/CROWD/Connecting+Crowd+to+a+Database
       Connecting CrowdID to a Database
         see http://confluence.atlassian.com/display/CROWD/Connecting+CrowdID+to+a+Database
+        
+    Start Crowd and Complete the Setup Wizard
+      #{prefix}/start_crowd.sh
+      see http://localhost:8095/crowd
 
     You can start crowd automatically on login with:
       mkdir -p ~/Library/LaunchAgents
