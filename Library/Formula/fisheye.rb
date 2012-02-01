@@ -51,9 +51,6 @@ EOS
   end
   
   def caveats; <<-EOS.undent
-    Copy config file
-      cp #{prefix}/config.xml #{FISHEYE_INST}/config.xml
-      
     Start Fisheye
       #{bin}/run.sh
       see http://localhost:8060/
