@@ -1,9 +1,9 @@
 require 'formula'
 
 class AtlassianJira < Formula
-  url 'http://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-4.4.4.tar.gz'
+  url 'http://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-5.0.tar.gz'
   homepage 'http://www.atlassian.com/software/jira/overview'
-  md5 'a5560b4e3aad4d8b65c85438a1d7a696'
+  md5 '33119378d790ea2b38bc4cd18b51f0a7'
   
   keg_only "This is binary distribution."
   skip_clean :all
