@@ -1,9 +1,9 @@
 require 'formula'
 
 class AtlassianConfluence < Formula
-  url 'http://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-4.1.6.tar.gz'
+  url 'http://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-4.2.8.tar.gz'
   homepage 'http://www.atlassian.com/software/confluence/overview'
-  md5 '14fccd4d605281cb34835343868afc84'
+  md5 'dbd3a0d182f3d3a552743b025e17aef5'
 
   keg_only "This is binary distribution."
   skip_clean :all
