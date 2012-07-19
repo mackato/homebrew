@@ -1,10 +1,10 @@
 require 'formula'
 
 class AtlassianBamboo < Formula
-  url 'http://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo-3.4.3-standalone.tgz'
+  url 'http://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo-4.1.2.tgz'
   homepage 'http://www.atlassian.com/software/bamboo'
-  md5 '62e7043f959cd497881dbe87113b8725'
-  version '3.4.3'
+  md5 '4a62b2ff2365d289d83106fbeeba8b1b'
+  version '4.1.2'
 
   keg_only "This is binary distribution."
   skip_clean :all
